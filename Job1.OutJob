@@ -1,0 +1,213 @@
+[OutputJobFile]
+Version=1.0
+
+[OutputGroup1]
+Name=Job1.OutJob
+Description=
+TargetPrinter=\\Delta\HP LaserJet 1020
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+OutputType1=EDIF
+OutputName1=EDIF for PCB
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=1
+OutputDefault1=0
+OutputType2=MultiWire
+OutputName2=MultiWire
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=1
+OutputDefault2=0
+OutputType3=Pcad
+OutputName3=Pcad for PCB
+OutputDocumentPath3=
+OutputVariantName3=
+OutputEnabled3=1
+OutputDefault3=0
+OutputType4=ProtelNetlist
+OutputName4=Protel
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=1
+OutputDefault4=0
+OutputType5=Verilog
+OutputName5=Verilog File
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=1
+OutputDefault5=0
+OutputType6=VHDL
+OutputName6=VHDL File
+OutputDocumentPath6=
+OutputVariantName6=
+OutputEnabled6=1
+OutputDefault6=0
+OutputType7=XSpiceNetlist
+OutputName7=XSpice Netlist
+OutputDocumentPath7=
+OutputVariantName7=
+OutputEnabled7=1
+OutputDefault7=0
+OutputType8=Composite
+OutputName8=Composite Drawing
+OutputDocumentPath8=
+OutputVariantName8=
+OutputEnabled8=1
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType9=Logic Analyser Print
+OutputName9=Logic Analyser Prints
+OutputDocumentPath9=
+OutputVariantName9=
+OutputEnabled9=1
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType10=PCB Print
+OutputName10=PCB Prints
+OutputDocumentPath10=
+OutputVariantName10=
+OutputEnabled10=1
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=False|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=600|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=0
+Configuration10_Name1=OutputConfigurationParameter2
+Configuration10_Item1=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=0|Mirror=True|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration10_Name2=OutputConfigurationParameter3
+Configuration10_Item2=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+OutputType11=Schematic Print
+OutputName11=Schematic Prints
+OutputDocumentPath11=
+OutputVariantName11=
+OutputEnabled11=1
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType12=SimView Print
+OutputName12=SimView Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputEnabled12=1
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType13=Wave Print
+OutputName13=Wave Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputEnabled13=1
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType14=Wave Print
+OutputName14=Wave Prints
+OutputDocumentPath14=
+OutputVariantName14=
+OutputEnabled14=1
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType15=Assembly
+OutputName15=Assembly Drawings
+OutputDocumentPath15=
+OutputVariantName15=
+OutputEnabled15=1
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType16=Pick Place
+OutputName16=Generates pick and place files
+OutputDocumentPath16=
+OutputVariantName16=
+OutputEnabled16=1
+OutputDefault16=0
+OutputType17=CompositeDrill
+OutputName17=Composite Drill Drawing
+OutputDocumentPath17=
+OutputVariantName17=
+OutputEnabled17=1
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType18=Drill
+OutputName18=Drill Drawing/Guides
+OutputDocumentPath18=
+OutputVariantName18=
+OutputEnabled18=1
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType19=Final
+OutputName19=Final Artwork Prints
+OutputDocumentPath19=
+OutputVariantName19=
+OutputEnabled19=1
+OutputDefault19=0
+PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType20=Gerber
+OutputName20=Gerber Files
+OutputDocumentPath20=
+OutputVariantName20=
+OutputEnabled20=1
+OutputDefault20=0
+OutputType21=Mask
+OutputName21=Solder/Paste Mask Prints
+OutputDocumentPath21=
+OutputVariantName21=
+OutputEnabled21=1
+OutputDefault21=0
+PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType22=NC Drill
+OutputName22=NC Drill Files
+OutputDocumentPath22=
+OutputVariantName22=
+OutputEnabled22=1
+OutputDefault22=0
+OutputType23=ODB
+OutputName23=ODB++ Files
+OutputDocumentPath23=
+OutputVariantName23=
+OutputEnabled23=1
+OutputDefault23=0
+OutputType24=Plane
+OutputName24=Power-Plane Prints
+OutputDocumentPath24=
+OutputVariantName24=
+OutputEnabled24=1
+OutputDefault24=0
+PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+OutputType25=Test Points
+OutputName25=Test Point Report
+OutputDocumentPath25=
+OutputVariantName25=
+OutputEnabled25=1
+OutputDefault25=0
+OutputType26=BOM_PartType
+OutputName26=Bill of Materials
+OutputDocumentPath26=
+OutputVariantName26=
+OutputEnabled26=1
+OutputDefault26=0
+OutputType27=ComponentCrossReference
+OutputName27=Component Cross Reference Report
+OutputDocumentPath27=
+OutputVariantName27=
+OutputEnabled27=1
+OutputDefault27=0
+OutputType28=ReportHierarchy
+OutputName28=Report Project Hierarchy
+OutputDocumentPath28=
+OutputVariantName28=
+OutputEnabled28=1
+OutputDefault28=0
+OutputType29=SimpleBOM
+OutputName29=Simple BOM
+OutputDocumentPath29=
+OutputVariantName29=
+OutputEnabled29=1
+OutputDefault29=0
+OutputType30=SinglePinNetReporter
+OutputName30=Report Single Pin Nets
+OutputDocumentPath30=
+OutputVariantName30=
+OutputEnabled30=1
+OutputDefault30=0
+
+[CAMtasticOutputs]
+OpenODBOutput=False
+OpenGerberOutput=False
+OpenNCDrillOutput=False
+OpenIPCOutput=False
+EnableReload=False
+
